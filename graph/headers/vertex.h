@@ -15,7 +15,7 @@
 typedef struct _Vertex {
     void* vertex_name;
     double key;
-    _Vertex* previous_vertex;
+    struct _Vertex* previous_vertex;
 } Vertex;
 
 Vertex* Vertex_create(void*);
