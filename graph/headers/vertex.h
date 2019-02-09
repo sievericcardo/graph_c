@@ -18,6 +18,7 @@ typedef struct _Vertex {
     struct _Vertex* previous_vertex;
 } Vertex;
 
+/* Constructor */
 Vertex* Vertex_create(void*);
 
 /*
