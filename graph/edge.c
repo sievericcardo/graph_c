@@ -7,3 +7,7 @@ Edge* Edge_create(double weight) {
 
     return edge;
 }
+
+void Edge_free(Edge* edge) {
+    free(edge);
+}
