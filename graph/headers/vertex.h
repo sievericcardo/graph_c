@@ -7,9 +7,9 @@
  *  Since a generic element is necessary to make the graph code reusable, their
  *  element will have void* type
  * 
- *  @author Riccardo Sieve
- *  @version 0.1
- *  @date 09/02/2019
+ *  author Riccardo Sieve
+ *  
+ *  09/02/2019
  */
 
 typedef struct _Vertex {
@@ -26,3 +26,4 @@ Vertex* Vertex_create(void*);
  */
 void Vertex_set_previous_vertex(Vertex*, Vertex*);
 void Vertex_set_key(Vertex*, double);
+void Vertex_free(Vertex*);
