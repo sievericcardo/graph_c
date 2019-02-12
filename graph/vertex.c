@@ -15,3 +15,7 @@ void Vertex_set_previous_vertex(Vertex* vertex, Vertex* previous_vertex) {
 void Vertex_set_key(Vertex* vertex, double key) {
     vertex->key = key;
 }
+
+void Vertex_free(Vertex* vertex) {
+    free(vertex);
+}
